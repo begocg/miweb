@@ -8,7 +8,7 @@
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
-    "clean": "rimraf dist .parcel-cache"
+    "clean": "rimraf dist .parcel-cache",
     "predeploy": "rm -rf dist && parcel build ./*.html --public-url "https://github.com/begocg/miweb/tree/gh-pages"",
     "deploy": "gh-pages -d dist"
   },
