@@ -10,7 +10,7 @@
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
     "clean": "rimraf dist .parcel-cache",
-    "predeploy": "rm -rf dist && parcel build src/*.html src/img/markermap.png --public-url \"https://github.com/begocg/miweb\"",
+    "predeploy": "rm -rf dist && parcel build src/*.html src/img/markermap.png --public-url \"https://github.com/begocg/miweb/src\"",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
