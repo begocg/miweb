@@ -155,7 +155,7 @@ dt {
 
 #map { height: 500px; }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) and (orientation: portrait) {
     .tarjetas {
       flex-direction: column;
       align-items: center;
@@ -174,3 +174,4 @@ dt {
 
   }
   
+
