@@ -1,0 +1,4 @@
+# Ignorar todas las carpetas
+/*
+# Incluir la carpeta "src"
+!/src/
