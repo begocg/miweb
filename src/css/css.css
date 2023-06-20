@@ -173,12 +173,12 @@ dt {
 
 @media (min-width: 769px) {
     .imagen-responsive {
-        content: url("../img/escudo-altaresolucion.png");
+        content: url("../img/escudo-altaresolucion.webp");
         max-width: 20%;
     }
 
     .imagen-responsive-arte {
-        content: url("../img/fiestadelcapazo_2.jpg");
+        content: url("../img/fiestadelcapazo_2.webp");
         max-width: 20%;
     }
 }
@@ -224,12 +224,12 @@ dt {
     }
 
     .imagen-responsive {
-        content: url("../img/escudo-bajaresolucion.png");
+        content: url("../img/escudo-bajaresolucion.webp");
         max-width: 100%;
     }
 
     .imagen-responsive-arte {
-        content: url("../img/fiestadelcapazo_2_movil.jpg");
+        content: url("../img/fiestadelcapazo_2_movil.webp");
         max-width: 100%;
     }
     .clip-path {
